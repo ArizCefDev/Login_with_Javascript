@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="form-wrapper sign-in">
+            <form method="dialog">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="text" placeholder="Username" id="usr">
+                    <p id="errorusr" class="input-error"></p>
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" id="psw">
+                    <p id="errorpsw" class="input-error"></p>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" onclick="Login()">Login</button>
+                <div class="signUp-link">
+                    <p>Don't Have an account?<a href="#" class="signUpBtn-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
